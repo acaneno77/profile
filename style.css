@@ -1,0 +1,320 @@
+/* Jika ukuran layar 680px atau kurang dari itu */
+
+@media screen and (max-width:680px){
+	#maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+	}
+    .container{
+        display:flex;
+        flex-direction: column;
+        /* color: rgb(0, 0, 255); */
+        text-align:left;
+        width: 100%;
+        gap:20px;
+    }
+    .list-map .kiri{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    }
+
+    .container > div{
+        width: 100px;
+        margin: auto;
+    }
+    .wrap-peg{
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        margin-left: 10px;
+        padding-left: 100px;
+    }
+}
+body{
+    color: rgb(255, 255, 255);
+    background-color: #000826;
+    text-align: center;
+}
+header{
+    color: #3c9fc9;
+    margin: 12px;
+    font-weight: 500;
+    align-items: center;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h1{
+    padding-left: 12px;
+    width: auto;
+    text-align: center;
+    margin: auto;
+    color: rgb(255, 255, 255);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+h4{
+    align-items: center;
+    font-weight: 350;
+    font-size: 11pt;
+    margin: 50px;
+    margin-bottom: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+img{
+    /* margin: 30px; */
+    /* padding-left: 25px; */
+    /* text-align: center; */
+    width: 25%;
+    height: 20%;
+    max-width: 80%;
+}
+h3{
+    align-items: center;
+    margin: 30px;
+    font-size: 50px;
+    padding-top: 50px;
+    width: auto;
+    padding: auto;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+h5{
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 15px;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container > div{
+    height:auto;      
+    width: 250px;                       
+}
+.contait > h4{
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.contai > h3{
+    padding-bottom: 30px;
+}
+
+.combined > .div{
+    border:  rgb(163, 128, 128) solid;
+    display: block;
+    justify-content: space-between;
+}
+
+.wrap-peg{
+    display: flex;
+    justify-content: space-around;
+    gap:50px;
+    width:1000px;
+    flex-wrap: wrap;
+    margin:auto;
+    margin-bottom:20px;
+    height: auto;    
+}
+.img-logo .logo img{
+    width: 28px;
+    height: 28px;
+    
+}
+.wrap-peg > .list-pegawai{
+    border-radius: 10px;
+    border:1px solid rgb(82, 74, 74);
+    width: 280px;
+    height:180px;
+    display: flex;
+    /* justify-content: space-between; */
+}
+.wrap-peg > .list-pegawai .img{
+    width: 90px;
+    height: 110px;
+    border-radius: 50%;
+    padding-left: 13px;
+    object-fit: contain;
+    object-position: center;
+}
+.wrap-peg > .list-pegawai > .kanan{
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    gap: 11px;
+    text-align: left;
+    margin: auto;
+}
+.wrap-peg > .list-pegawai > .kiri{
+    padding-top: 28px;
+    padding-left: 25px;
+}
+/* .wrap-peg > .list-pegawai > .kanan > p{ */
+    /* margin-top: 23px; */
+/* } */
+.kontak .combined{
+padding: 15px;
+padding-left: auto;
+height:fit-content;
+}
+.combined{
+justify-content: space-around;
+display: flex;
+padding-right: 600px;
+padding-left: 660px;
+/* border:  rgb(138, 13, 13) solid; */
+height: auto;
+width: 50;
+flex-flow: column;
+}
+.logo-nama{
+    width: 50%;
+    height: 50%;
+    display: flex;  
+    justify-content: space-between;
+    flex-direction: row;
+}
+.logo-nama img{
+    /* border: red 3px solid; */
+    width:8%;
+    height:8%;
+    padding-left: 754px;
+
+}
+.wrap-peak{
+    display: flex;
+    justify-content: center;
+}
+
+    .wrap-peak.list-map .map{
+        height: 10%;   
+        /* border: blue 5px solid; */
+        width: 50% ;
+        padding-right: auto;
+        display: flex;
+        gap: 40px;
+
+    }
+    .wrap-peak.list-map.gambar .map{
+        border: #d0ff00 solid;
+        height: 50%;
+        width: 50%;
+        justify-content: center;
+    }
+.wrap-email > .div >.email{
+    border:  rgb(0, 26, 255) solid;
+    display: flex;
+    justify-content: space-between;   
+}
+.wrap-peak > .list-map{
+    display: flex;
+    padding: 1px;
+    padding-bottom: 5px;
+    margin: 1px;
+    /* border: red 4px solid; */
+    margin-top: 0px;
+}
+.wrap-peak .list-map .gambar .map{
+    width: 500px;
+    height: 500px;
+    /* border: #d0ff00 3px solid; */
+}
+.wrap-peak .note{
+    /* border: #3c9fc9 3px solid; */
+    padding-right: 5px;
+    text-align: left;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .content {
+    padding: 20px;
+  }
+  
+  .footer {
+    background-color: #333;
+    color: #ffffff;
+    padding: 1rem;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer-left,
+  .footer-right {
+    flex-basis: 100%;
+  }
+  .footer-right{
+    text-align: center;
+    font-style: normal;
+  }
+  .footer h2 {
+    margin-bottom: 15px;
+  }
+  
+  .footer p {
+    margin: 5px 0;
+  }
+  
+  .footer a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .label-value{
+    /* border:1px solid red; */
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 7px;
+    gap: 5px;
+  }
+
+  .label-value .sosmed-logo{
+    display: flex;
+    flex-direction: row;
+    gap:10px;
+  }
+
+  .label-value .sosmed-logo span{
+    width: 25px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+  }
+
+  .label-value .sosmed-logo img{
+    width: 100%;
+    height: 100%;
+  }
+
+  .label-value .label{
+    font-weight: 100;
+    color: #979797;
+margin: 3px;
+  }
+  #map {
+    width: 100%; /* Sesuaikan lebar sesuai kebutuhan Anda */
+    height: 500px; /* Sesuaikan tinggi sesuai kebutuhan Anda */
+}
